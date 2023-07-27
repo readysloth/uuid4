@@ -1,3 +1,7 @@
+#ifndef UUID_H_A1CI8QWH
+#define UUID_H_A1CI8QWH
+
+
 #include <stdlib.h>
 
 #define UUID4_TEMPLATE "xxxxxxxx-xxxx-4xxx-xxxx-xxxxxxxxxxxx"
@@ -24,3 +28,6 @@
 //
 // char arr[sizeof(UUID_TEMPLATE)];
 // UUID(just_suffix, arr, sizeof(arr));
+
+
+#endif /* end of include guard: UUID_H_A1CI8QWH */
